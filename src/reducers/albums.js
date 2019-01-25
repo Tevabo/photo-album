@@ -1,6 +1,4 @@
 import { ADD_ALBUM, SET_ALBUMS } from '../actions/ADD_ALBUM'
-import AlbumsList from '../components/AlbumsList';
-
 export default (state = [], action = {}) => {
     switch (action.type) {
         case ADD_ALBUM:
