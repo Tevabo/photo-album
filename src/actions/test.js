@@ -2,7 +2,7 @@ export const NEW_HELLO_WORLD = 'NEW_HELLO_WORLD'
 
 export function helloWorld(firstName, lastName) {
     return {
-        type: 'NEW_HELLO_WORLD',
+        type: NEW_HELLO_WORLD,
         payload: { 
             firstName: firstName,
             lastName: lastName
