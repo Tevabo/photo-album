@@ -1,4 +1,5 @@
 export const ADD_ALBUM = 'ADD_ALBUM'
+export const SET_ALBUMS = 'SET_ALBUMS'
 
 export function addAlbum(id, title){
     return {
@@ -8,5 +9,12 @@ export function addAlbum(id, title){
             title : title
         }
 
+    }
+}
+
+export function setAlbums(albums){
+    return {
+        type: SET_ALBUMS,
+        payload: albums
     }
 }
